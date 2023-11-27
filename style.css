@@ -61,10 +61,155 @@ main {
     flex-direction: column;
     justify-content: center;
     color: rgb(53, 53, 53);
+    padding-right: 5%;
 }
 
 button {
     padding: 8px 0px 8px 0px;
     background-color: rgb(34, 34, 34);
     color: white;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(238, 237, 237);
+}
+
+.information-left {
+    padding: 32px 24px 32px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.information-left {
+    height: 100%;
+}
+
+.information-right {
+    width: 45%;
+    padding: 0px 0px 32px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.information-right-1 {
+    padding: 32px 0px 16px 16px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.information-right-2 {
+    padding: 32px 0px 16px 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-right-3 {
+    padding: 32px 0px 16px 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.information-right-1-text {
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.course {
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 72px 32px 72px;
+}
+
+.course-information {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.course-information-1 {
+    background-color: white;
+    margin: 16px;
+    width: 25%;
+}
+
+h3 {
+    color: rgb(71, 71, 71);
+}
+
+h4 {
+    font-weight: lighter;
+    color: rgb(90, 90, 90);
+}
+
+p {
+    color: rgb(90, 90, 90);
+}
+
+.thesis {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 237, 237);
+    
+}
+
+.thesis-information {
+    display: flex;
+    flex-direction: row;
+}
+
+.thesis-information-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px 24px 32px 24px;
+}
+
+.thesis-information-right {
+    width: 40%;
+}
+
+.thesis-information-right-1 {
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.thesis-information-right-1-1 {
+    width: 65%;
+    padding-left: 16px;
+}
+
+footer {
+    background-color: rgb(238, 237, 237);
+    padding: 16px 0px 0px 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid #bdbcbc;
+    height: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.read-more {
+    color: rgb(57, 150, 208);
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+
 }
